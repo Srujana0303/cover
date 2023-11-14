@@ -25,6 +25,8 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
+
+```
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -58,8 +60,9 @@ Publish the website in the given URL.
         </div>
     </body>
 </html>
+```
 
-
+```
 body{
     background-color: black;
     overflow-x: hidden;
@@ -135,6 +138,7 @@ h1{
     text-align: center;
     text-decoration: underline;
 }
+```
 ## OUTPUT:
 
 <img width="624" alt="image" src="https://github.com/Srujana0303/cover/assets/132996836/0a4d8e8a-a630-47c2-b039-4f3ec8b00586">
