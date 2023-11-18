@@ -1,0 +1,50 @@
+p{
+    font-family: Arial;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div{
+    text-align: center;
+}
+
+.T1{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size:17px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+.l1{
+    width: 20%;
+    margin-left: -10px;
+    align-self: center;
+}
+.T2{
+    font-weight: bold;
+    color: rgb(246, 149, 31);
+    font-size:45px;
+    margin-top:70px;
+    margin-left: -1050px;
+}
+
+.T3{
+    font-weight: bold;
+    font-size:20px;
+    margin-top: 480px;
+    color: rgb(179, 129, 13);
+    margin-left: -1350px;
+
+}
+.l2{
+    width: 20%;
+    margin-left: -10px;
+}
+.i1{
+    height: 100px;
+    margin-left: 410px;
+    margin-top: -180px;
+    align-self: center;
+}

@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:
+## Date: 28-10-23
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -25,124 +25,97 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
-
-```
+```html
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial scale=1.0">
-        <meta name="Book Cover">
-        <title>BOOK COVER</title>
-        <link rel="icon" href="book.png">
-        <link rel="stylesheet" href="bookcover.css" type="text/css">
+        <title>Font ex1</title>
+        <link rel="stylesheet", href="book.css">
+        <style>
+            body {
+                background-image: url('samp.png');
+                background-size: 500px 750px;
+                background-repeat: no-repeat;
+            }
+        </style>
     </head>
     <body>
-        <div class="top">
-            <h1>WEB DESIGN</h1>
-        </div>
-        <div class="middle">
-            
-            <img src="image.jpg" alt="Main picture" height="200px" width="746px">
-           
-        </div>
-        <div class="bottom">
-            <h1>PLAYGROUND</h1>
-            <div class="box1">
-                <h2>HTML + CSS</h2>
-            </div>
-            <div class="box2">
-                <h2>THE INTERACTIVE WAY</h2>
-            </div>
-            <div class="author">
-                <h2>Sherin Joys Catherina</h2>
-            </div>
-        </div>
+        <p class="T1">
+            First Edition
+        </p>
+        <hr class="l1" color="gray">
+        
+        <p class="T2">
+            Elden Ring
+        </p>
+        
+        <p class="T3">
+            Hidetaka Miyazaki
+        </p>
+        
+        <hr class="l2">
+        <img src="prof.jpg" class="i1" style="vertical-align:bottom">
+        
+        
     </body>
 </html>
 ```
 
-```
-body{
-    background-color: black;
-    overflow-x: hidden;
-}
-.top{
-    height: 150px;
-    width: 750px;
-    background-color: #ffba42;
-    overflow-y: hidden;
-    margin-left: auto;
-    margin-right: auto;
-}
-.middle{
-    height: 200px;
-    width:100%;
-    overflow-y: hidden;
-    margin-left: 375px;
-    border: none;
-    box-shadow: inset 0 0 7px #000000;
-}
-.middle img{
-    margin-left: 7px;
-}
-.bottom{
-    height: 375px;
-    width: 750px;
-    background-color:#00537a;
-    overflow-y: hidden;
-    margin-left: auto;
-    margin-right: auto;
-}
-h1{
+```css
+p{
+    font-family: Arial;
     text-align: center;
-    font-size: 80px;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    margin-top: 0;
+    margin-bottom: 0;
 }
-.bottom h1{
-    margin-top: -3px;
+
+div{
+    text-align: center;
 }
-.top h1{
-    margin-top: 65px;
-}
-.box1{
-    border-bottom: 40px solid #ffba42; 
-    border-left: 20px solid transparent;
-    transform: rotate(180deg); 
-    width: 390px;
-}
-.box1 h2{
-    position: absolute;
-    transform: rotate(180deg);
-    margin-left: 15px;
-    margin-top: 1px;
-    text-align: right;
-}
-.box2{
-    border-bottom: 40px solid #318a98;  
-    border-right: 20px solid transparent; 
-    transform: rotate(180deg);
-    width: 525px;
-    margin-left: 205px;
+
+.T1{
+    font-weight: bold;
+    color: rgb(179, 129, 13);
+    font-size:17px;
     margin-top: 30px;
+    margin-left: -630px;
+
 }
-.box2 h2{
-    position: absolute;
-    transform: rotate(180deg);
-    margin-left: 165px;
-    margin-top: 1px;
-    text-align: right;
+.l1{
+    width: 20%;
+    margin-left: -10px;
 }
-.author h2{
-    margin-top: 40px;
-    text-align: center;
-    text-decoration: underline;
+.T2{
+    font-weight: bold;
+    color: rgb(246, 149, 31);
+    font-size:45px;
+    margin-top:70px;
+    margin-left: -265px;
+}
+
+.T3{
+    font-weight: bold;
+    font-size:20px;
+    margin-top: 480px;
+    color: rgb(179, 129, 13);
+    margin-right: 600px;
+
+}
+.l2{
+    width: 20%;
+    margin-left: -10px;
+}
+.i1{
+    filter: grayscale(100%);
+    height: 100px;
+    margin-left: 410px;
+    margin-top: -180px;
 }
 ```
+
 ## OUTPUT:
-
-<img width="624" alt="image" src="https://github.com/Srujana0303/cover/assets/132996836/0a4d8e8a-a630-47c2-b039-4f3ec8b00586">
-
+![Alt text](image.png)
+![Alt text](image-1.png)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
